@@ -3,7 +3,7 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => (
-  <div className="header">
+  <header className="header">
     <div className="logo">Church Name</div>
     <nav>
       <ul>
@@ -13,7 +13,7 @@ const Header = () => (
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-  </div>
+  </header>
 );
 
 export default Header;
