@@ -9,9 +9,10 @@ const Services = () => (
       <li>2nd Service: 10am - 12 noon (English)</li>
       <li>3rd Service: 12 noon - 2pm (Kiswahili)</li>
     </ul>
-    <button onClick={() => window.location.href='https://youtube.com/your-channel'}>
-      Watch Online
+    <button onClick={() => window.open('https://www.youtube.com/@aicziwanike582', '_blank')}>
+        Watch Online
     </button>
+
   </section>
 );
 
