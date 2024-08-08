@@ -1,0 +1,40 @@
+.sermons {
+    padding: 2rem;
+    background-color: #fff; /* White background */
+  }
+  
+  .sermons h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #ff0000; /* Red text */
+  }
+  
+  .sermon-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .sermon-card {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .sermon-card iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .sermon-card p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
