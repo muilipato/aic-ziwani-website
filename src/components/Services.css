@@ -1,0 +1,36 @@
+.services {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f8f8; /* Light gray background */
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ff0000; /* Red text */
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services ul li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .services button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff0000; /* Red background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .services button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  
