@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/aic-ziwani-website/static/css/main.6b52777f.css",
-    "main.js": "/aic-ziwani-website/static/js/main.664797d5.js",
+    "main.css": "/aic-ziwani-website/static/css/main.d98448df.css",
+    "main.js": "/aic-ziwani-website/static/js/main.8a49f2aa.js",
     "static/js/453.63737a9b.chunk.js": "/aic-ziwani-website/static/js/453.63737a9b.chunk.js",
+    "static/media/308585658_411706434441516__n.jpg": "/aic-ziwani-website/static/media/308585658_411706434441516_7217764519872752177_n.3db7640b1edde6d178c5.jpg",
     "index.html": "/aic-ziwani-website/index.html",
-    "main.6b52777f.css.map": "/aic-ziwani-website/static/css/main.6b52777f.css.map",
-    "main.664797d5.js.map": "/aic-ziwani-website/static/js/main.664797d5.js.map",
+    "main.d98448df.css.map": "/aic-ziwani-website/static/css/main.d98448df.css.map",
+    "main.8a49f2aa.js.map": "/aic-ziwani-website/static/js/main.8a49f2aa.js.map",
     "453.63737a9b.chunk.js.map": "/aic-ziwani-website/static/js/453.63737a9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b52777f.css",
-    "static/js/main.664797d5.js"
+    "static/css/main.d98448df.css",
+    "static/js/main.8a49f2aa.js"
   ]
 }
