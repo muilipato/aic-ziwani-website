@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 const Home = () => (
   <div>
     <Header />
-    <Hero/>
+    <Hero title="Welcome to Our Service" subtitle="Join us and feel the presence of God."/>
     <Services />
     <Sermons />
     <Footer />

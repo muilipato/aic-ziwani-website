@@ -1,11 +1,11 @@
 import React from 'react';
 import './Hero.css';
 
-const Hero = () => (
+const Hero = ({title, subtitle}) => (
   <section className="hero" style={{ backgroundImage: 'url(/path-to-image.jpg)' }}>
     <div className="hero-text">
-      <h1>Welcome to Our Service</h1>
-      <p>Join us and feel the presence of God.</p>
+      <h1>{title}</h1>
+      <p>{subtitle}</p>
     </div>
   </section>
 );

@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import './About.css'
 const About = () => (
   <div className="about-page">
-    <Hero/>
+    <Hero title="Our Mission and Vision" subtitle="Beliefs"/>
     <section className="history">
       <h2>Brief Church History</h2>
       <p>Our church was founded in ...</p>
