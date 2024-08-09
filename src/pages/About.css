@@ -1,9 +1,8 @@
-.about-page {
-    padding: 2rem;
-  }
-  
   .history {
     margin-bottom: 2rem;
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 1rem;
+    border-radius: 10px;
   }
   
   .history h2 {
@@ -14,10 +13,12 @@
   
   .history p {
     font-size: 1.2rem;
+    color: #333; /* Dark text */
   }
   
   .pastoral-team {
     text-align: center;
+    margin-top: 2rem;
   }
   
   .pastoral-team h2 {
@@ -40,6 +41,7 @@
     border-radius: 10px;
     text-align: center;
     max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
   
   .team-card img {
