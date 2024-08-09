@@ -1,21 +1,14 @@
 import React from 'react';
-//import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Sermons from './components/Sermons';
-import Footer from './components/Footer';
-
+import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 function App() {
   return (
-    <>
-    <Header />
-    <Hero/>
-    <Services/>
-    <Sermons/>
-    <Footer/>
-    </>
-
+    <Router basename="/aic-ziwani-website">
+      <Routes>
+        <Route exact path = '/' element={<Home/>}></Route>
+      </Routes>
+    </Router>
+  
   );
 }
 
