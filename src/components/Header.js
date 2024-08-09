@@ -1,5 +1,5 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => (
@@ -7,10 +7,8 @@ const Header = () => (
     <div className="logo">Church Name</div>
     <nav>
       <ul>
-      <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#sermons">Sermons</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/about'>About</Link></li>
       </ul>
     </nav>
   </header>
