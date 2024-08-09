@@ -1,0 +1,56 @@
+.about-page {
+    padding: 2rem;
+  }
+  
+  .history {
+    margin-bottom: 2rem;
+  }
+  
+  .history h2 {
+    color: #ff0000; /* Red text */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .history p {
+    font-size: 1.2rem;
+  }
+  
+  .pastoral-team {
+    text-align: center;
+  }
+  
+  .pastoral-team h2 {
+    color: #ff0000; /* Red text */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .team-card {
+    background-color: #fff; /* White background */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .team-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .team-card p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333; /* Dark text */
+  }
+  

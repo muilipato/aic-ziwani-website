@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
-
+import './About.css'
 const About = () => (
   <div className="about-page">
     <Hero/>
