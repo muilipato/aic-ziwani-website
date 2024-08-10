@@ -23,6 +23,11 @@
   scroll-behavior: smooth;
   padding-bottom: 1rem;
   transition: opacity 0.3s ease;
+  scrollbar-width: none; /* For Firefox */
+}
+
+.sermon-cards::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge */
 }
 
 .sermon-card {
@@ -81,4 +86,12 @@
 .sermons:hover .sermon-cards,
 .sermons:hover .scroll-arrow {
   opacity: 1;
+}
+
+.sermons:hover .sermon-cards::-webkit-scrollbar {
+  display: block;
+}
+
+.sermons:hover .sermon-cards {
+  scrollbar-width: thin; /* For Firefox */
 }
