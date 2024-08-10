@@ -1,28 +1,42 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #ff0000; /* Red background */
-    color: #fff; /* White text */
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color:#aaaaaa; /* Dark background */
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
-  .header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
+.logo-container {
+  display: flex;
+  align-items: center;
+}
 
-  .header nav ul {
-    display: flex;
-    list-style: none;
-  }
+.logo {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 1rem;
+}
 
-  .header nav ul li {
-    margin-left: 1rem;
-  }
+.church-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+}
 
-  .header nav ul li a {
-    color: #fff; /* White text */
-    text-decoration: none;
-    font-weight: bold;
-  }
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #ff0000; /* Red hover color */
+}
