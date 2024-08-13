@@ -1,5 +1,5 @@
 .sermons {
-  width: 100%;
+  
   padding: 2rem 0;
   position: relative;
   overflow-x: hidden;
@@ -32,7 +32,8 @@
 
 .sermon-card {
   flex: 0 0 auto;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   border: none;
   border-radius: 8px;
   background-color: #fff;
@@ -94,4 +95,34 @@
 
 .sermons:hover .sermon-cards {
   scrollbar-width: thin; /* For Firefox */
+}
+
+@media (max-width: 768px) {
+  .sermon-card iframe {
+    height: 180px;
+  }
+  .sermons h2{
+    font-size: 1.5rem;
+  }
+
+  .sermon-card {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .sermon-card iframe {
+    height: 150px;
+  }
+
+  .sermon-card{
+    opacity: 1;
+  }
+  .sermon-card p {
+    font-size: 0.9rem;
+  }
+  .sermons h2{
+    font-size: 1.5rem;
+  }
 }
