@@ -1,4 +1,5 @@
 .services {
+    
     padding: 2rem;
     text-align: center;
     background-color: #f8f8f8; /* Light gray background */
@@ -34,3 +35,39 @@
     background-color: #cc0000; /* Darker red on hover */
   }
   
+ /* Responsive Styling */
+@media (max-width: 768px) {
+  .services {
+    padding: 1.5rem;
+  }
+
+  .services h2 {
+    font-size: 1.8rem;
+  }
+
+  .services ul li {
+    font-size: 1.1rem;
+  }
+
+  .services button {
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    padding: 1rem;
+  }
+
+  .services h2 {
+    font-size: 1.5rem;
+  }
+
+  .services ul li {
+    font-size: 1rem;
+  }
+
+  .services button {
+    padding: 0.3rem 0.7rem;
+  }
+}
